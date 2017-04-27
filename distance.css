@@ -1,0 +1,50 @@
+.distanceLabel {
+    position: absolute;
+    white-space: nowrap;
+    opacity: 1;
+    z-index: 11;
+    font-size: 12px;
+    -webkit-box-shadow: rgb(153, 153, 153) 2px 2px 8px;
+    box-shadow: rgb(153, 153, 153) 2px 2px 8px;
+    line-height: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(75, 75, 75);
+    padding: 2px 7px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.distanceDeleteIcon {
+    border: none;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    vertical-align: top;
+    margin-left: 3px;
+    background-image: url('http://3gimg.qq.com/lightmap/measure/image/line_red.png');
+    background-position: -50px 0px;
+}
+
+.distanceClear {
+    border: none;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    vertical-align: top;
+    margin-left: 3px;
+    background-image: url('http://3gimg.qq.com/lightmap/measure/image/line_red.png');
+    background-position: -36px 0px;
+}
+
+.distanceDragPoint {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    z-index: 11;
+    background-image: url('http://3gimg.qq.com/lightmap/measure/image/line_red.png');
+    background-position: -24px 0px;
+}
